@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Swiggy Timer",
+  "version": "1.0",
+  "description": "A simple 60secs timer",
+  "icons": {
+    "16": "./assets/clock16.ico",
+    "48": "./assets/clock48.ico",
+    "128": "./assets/clock128.ico"
+  },
+  "author": "David Asaolu",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  } 
+}
